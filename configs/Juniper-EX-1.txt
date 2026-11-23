@@ -1,0 +1,115 @@
+Current configuration : 1842 bytes
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+hostname Juniper-EX-1
+no ip routing
+!
+interface ge-0/0/0
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/1
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/2
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/3
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/4
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/5
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/6
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/7
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/8
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/9
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/10
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/11
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/12
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/13
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/14
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/15
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/16
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/17
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/18
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/19
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/20
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/21
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/22
+ no shutdown
+ switchport mode access
+!
+interface ge-0/0/23
+ no shutdown
+ switchport mode access
+!
+interface xe-0/0/0
+ no shutdown
+ switchport mode trunk
+!
+interface xe-0/0/1
+ no shutdown
+ switchport mode trunk
+!
+interface Console
+ no shutdown
+ switchport mode access
+end
